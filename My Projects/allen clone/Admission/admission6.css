@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+    position: static;
+    border-right: red;
+    box-sizing: border-box;
+    font-family: "Open Sans", Arial, sans-serif;
+    padding: 11px;
+    line-height: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    margin: 0 0 0 5px;
+    padding: 0 5px 0 0;
+    font-size: 11px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn a {
+    background-color: white;
+}
+
+.navbar {
+    padding: 43px;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+}
+
+.navbar a {
+    padding: 0 5px 0 5px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.dropbtn2 {
+    background-color: white;
+    color: black;
+    padding: 0 4px 0 0;
+    font-size: 15px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 0 60px 0 0;
+}
+
+.dropdown2 button:hover {
+    color: rgb(127, 236, 127);
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content2 a:hover {
+    color: rgb(58, 204, 58);
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown2:hover .dropbtn2 a {
+    background-color: lightgreen;
+}
+
+.container1 {
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+}
+
+.container1 p {
+    padding-top: 20px;
+    padding-left: 110px;
+    font-size: 24px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.table3,
+td,
+th {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.table3 {
+    margin: 15px 40px 30px 2px;
+    font-family: "Open Sans", Arial, sans-serif;
+    border-spacing: 1px;
+    width: 1090px;
+    border-collapse: collapse;
+}
+
+.table3 th {
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.table3 td {
+    font-size: 14px;
+    padding: 3px 50px 2px 15px;
+    line-height: 23px;
+    text-align: left;
+}
+
+.table3 tr:nth-child(odd) {
+    background-color: rgb(223, 219, 219);
+}
+
+.container {
+    background-color: black;
+    color: white;
+}
+
+.container h3 {
+    padding: 50px 50px 0 50px;
+    font-size: 23px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -40px 0 0 900px;
+}
+
+.container a {
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 40px;
+    line-height: 38px;
+}
+
+.container .fa {
+    color: white;
+}
+
+.container a:hover {
+    background-color: red;
+}
+
+.conainer a i {
+    transition: all 0.5sec linear;
+}
+
+.table1 {
+    margin: 20px 50px 0 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    border-spacing: 9px;
+    color: rgba(211, 211, 211, 0.733);
+}
+
+.table1 th {
+    color: white;
+    font-size: 17px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.table1 td {
+    font-size: 13px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.table1 td:hover {
+    color: grey;
+}
+
+.table2 th {
+    padding-right: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+}
+
+.content {
+    text-align: center;
+    margin: 20px 50px 100px 50px;
+    color: rgba(211, 211, 211, 0.733);
+}
+
+.images img {
+    margin: -60px 0 30px 50px;
+    height: 40px;
+}
+
+.images p {
+    margin-left: 820px;
+    margin-top: -75px;
+    padding-bottom: 30px;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+.para {
+    background-color: rgb(21, 148, 21);
+    color: white;
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 8px;
+}

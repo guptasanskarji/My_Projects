@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: black;
+    color: white;
+}
+
+.container h3 {
+    padding: 50px 50px 0 50px;
+    font-size: 23px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -40px 0 0 900px;
+}
+
+a {
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 40px;
+    line-height: 38px;
+}
+
+.fa {
+    color: white;
+}
+
+a:hover {
+    background-color: red;
+}
+
+a i {
+    transition: all 0.5sec linear;
+}
+
+table {
+    margin: 20px 50px 0 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    border-spacing: 9px;
+    color: rgba(211, 211, 211, 0.733);
+}
+
+th {
+    color: white;
+    font-size: 17px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+td {
+    font-size: 13px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+td:hover {
+    color: grey;
+}
+
+.table2 th {
+    padding-right: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+}
+
+.content {
+    text-align: center;
+    margin: 20px 50px 100px 50px;
+    color: rgba(211, 211, 211, 0.733);
+}
+
+.images img {
+    margin: -60px 0 30px 50px;
+    height: 40px;
+}
+
+.images p {
+    margin-left: 820px;
+    margin-top: -75px;
+    padding-bottom: 30px;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+.para {
+    background-color: rgb(13, 160, 13);
+    color: white;
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 8px;
+}

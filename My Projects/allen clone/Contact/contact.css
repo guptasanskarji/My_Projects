@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+    position: static;
+    border-right: red;
+    box-sizing: border-box;
+    font-family: "Open Sans", Arial, sans-serif;
+    padding: 11px;
+    line-height: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    margin: 0 0 0 5px;
+    padding: 0 5px 0 0;
+    font-size: 11px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn a {
+    background-color: white;
+}
+
+.navbar {
+    padding: 43px;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+}
+
+.navbar a {
+    padding: 0 5px 0 5px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.dropbtn2 {
+    background-color: white;
+    color: black;
+    padding: 0 4px 0 0;
+    font-size: 15px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 0 60px 0 0;
+}
+
+.dropdown2 button:hover {
+    color: rgb(127, 236, 127);
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content2 a:hover {
+    color: rgb(58, 204, 58);
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown2:hover .dropbtn2 a {
+    background-color: lightgreen;
+}
+
+.container1 p {
+    margin-top: 20px;
+    padding-left: 110px;
+    font-size: 27px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.content1 {
+    margin: 20px 100px 20px 110px;
+    background-color: rgb(245, 243, 243);
+    height: 36px;
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+    border: 1px solid rgb(223, 217, 217);
+    border-radius: 7px;
+    padding-top: 16px;
+}
+
+.content1 a {
+    text-decoration: none;
+    color: black;
+    padding-left: 34px;
+}
+
+.container2 {
+    margin: 20px 90px 20px 520px;
+}
+
+.container2 .content2 {
+    background-color: rgb(96, 96, 190);
+    color: white;
+    text-align: center;
+    height: 10px;
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.container2 .content3 {
+    margin: 0 180px 0 180px;
+}
+
+.container2 img {
+    margin: 15px 0 15px 70px;
+}
+
+.container2 .content3 p {
+    text-align: center;
+    margin: 25px 0 10px 0;
+    font-size: 13px;
+}
+
+.container2 .content3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin: 15px 0 15px 70px;
+}
+
+.container2 i {
+    color: rgb(27, 194, 27);
+}
+
+.container2 .content4 {
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+
+.container2 .content4 img {
+    margin: 15px 0 15px 0;
+}
+
+.container2 .content4 p {
+    text-align: center;
+    margin: 25px 0 10px 0;
+    font-size: 12px;
+}
+
+.container2 .content4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin: 15px 0 15px 30px;
+}
+
+.container3 {
+    margin: 20px 80px 20px 520px;
+}
+
+.container3 .content2 {
+    background-color: rgb(96, 96, 190);
+    color: white;
+    text-align: center;
+    height: 10px;
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.container3 .content4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 850px 10px 10px;
+}
+
+.container3 .content4 img {
+    margin: 15px 0 15px 0;
+}
+
+.container3 .content4 p {
+    text-align: center;
+    margin: 25px 0 10px 0;
+    font-size: 12px;
+}
+
+.container {
+    background-color: black;
+    color: white;
+}
+
+.container h3 {
+    padding: 50px 50px 0 50px;
+    font-size: 23px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -40px 0 0 900px;
+}
+
+.container a {
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 40px;
+    line-height: 38px;
+}
+
+.container .fa {
+    color: white;
+}
+
+.container a:hover {
+    background-color: red;
+}
+
+.conainer a i {
+    transition: all 0.5sec linear;
+}
+
+table {
+    margin: 20px 50px 0 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    border-spacing: 9px;
+    color: rgba(211, 211, 211, 0.733);
+}
+
+th {
+    color: white;
+    font-size: 17px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+td {
+    font-size: 13px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+td:hover {
+    color: grey;
+}
+
+.table2 th {
+    padding-right: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+}
+
+.content {
+    text-align: center;
+    margin: 20px 50px 100px 50px;
+    color: rgba(211, 211, 211, 0.733);
+}
+
+.images img {
+    margin: -60px 0 30px 50px;
+    height: 40px;
+}
+
+.images p {
+    margin-left: 820px;
+    margin-top: -75px;
+    padding-bottom: 30px;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+.para {
+    background-color: rgb(21, 148, 21);
+    color: white;
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 8px;
+}

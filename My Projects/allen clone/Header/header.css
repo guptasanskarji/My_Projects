@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgba(243, 235, 235, 0.842);
+}
+
+nav {
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+    position: static;
+    border-right: red;
+    box-sizing: border-box;
+    font-family: "Open Sans", Arial, sans-serif;
+    padding: 11px;
+    line-height: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    margin: 0 0 0 5px;
+    padding: 0 5px 0 0;
+    font-size: 11px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn a {
+    background-color: white;
+}
+
+.navbar {
+    padding: 43px;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+}
+
+.navbar a {
+    padding: 0 5px 0 5px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.dropbtn2 {
+    background-color: white;
+    color: black;
+    padding: 0 4px 0 0;
+    font-size: 15px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 0 60px 0 0;
+}
+
+.dropdown2 button:hover {
+    color: rgb(127, 236, 127);
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content2 a:hover {
+    color: rgb(58, 204, 58);
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+.dropdown2:hover .dropbtn2 a {
+    background-color: lightgreen;
+}
+
+.container {
+    display: grid;
+    padding: 23px;
+    grid-template-columns: 2fr 2fr;
+    background-color: white;
+}
+
+.container img {
+    margin-left: 75px;
+    height: 370px;
+    width: 750px;
+}
+
+.container .box {
+    height: 370px;
+    width: 390px;
+    background-color: rgba(248, 241, 241, 0.911);
+    margin-left: 20px;
+}
+
+.container h4 {
+    background-color: rgb(37, 26, 139);
+    padding: 7px 7px 7px 11px;
+    margin: 7px 13px;
+    color: white;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
+}
+
+.container .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+}
+
+.container .content p {
+    margin-left: 20px;
+    padding: 11px;
+}
+
+.container2 h1 {
+    text-align: center;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.container2 .box1 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 500px;
+    width: 400px;
+}

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.box {
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+.box h1 {
+    padding: 13px 0 13px 170px;
+}
+
+.container1 {
+    text-align: left;
+    margin: 0 80px 70px 100px;
+    border: 1px solid rgb(209, 202, 202);
+}
+
+.container1 label {
+    padding-right: 150px;
+}
+
+.container1 input[type=text] {
+    padding-left: 16px;
+    margin-top: 30px;
+    height: 22px;
+    width: 250px;
+    font-size: 15px;
+}
+
+.container1 input[type=button] {
+    margin-bottom: 20px;
+    height: 37px;
+    width: 70px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    margin-left: 240px;
+    margin-top: -50px;
+}
+
+.container {
+    background-color: black;
+    color: white;
+}
+
+.container h3 {
+    padding: 50px 50px 0 50px;
+    font-size: 23px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -40px 0 0 900px;
+}
+
+.container a {
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 40px;
+    line-height: 38px;
+}
+
+.container .fa {
+    color: white;
+}
+
+.container a:hover {
+    background-color: red;
+}
+
+.conainer a i {
+    transition: all 0.5sec linear;
+}
+
+table {
+    margin: 20px 50px 0 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    border-spacing: 9px;
+    color: rgba(211, 211, 211, 0.733);
+}
+
+th {
+    color: white;
+    font-size: 17px;
+    padding-bottom: 20px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+td {
+    font-size: 13px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+td:hover {
+    color: grey;
+}
+
+.table2 th {
+    padding-right: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.445);
+}
+
+.content {
+    text-align: center;
+    margin: 20px 50px 100px 50px;
+    color: rgba(211, 211, 211, 0.733);
+}
+
+.images p {
+    margin-top: -75px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 15px;
+}
